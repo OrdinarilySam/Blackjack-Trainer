@@ -1,0 +1,19 @@
+@font-face {
+    font-family: LinearBeam;
+    style: normal;
+    weight: 400;
+    stretch: 100;
+    src: url("linearbeam.ttf");
+}
+
+body {
+    text-align: center;
+}
+#title {
+    font-family: LinearBeam, serif;
+}
+.play-box {
+    margin: 10px auto;
+    border: 2px solid black;
+    height: 100px;
+}

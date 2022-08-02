@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Black Jack Trainer</title>
 </head>
 <body>
-    
+    <div class="containter">
+        <h1 id="title">Black Jack Trainer</h1>
+        <div class="play-box" id="dealer">
+            <p class="cards" id="dealer-cards"></p>
+            <p class="sum" id="dealer-sum"></p>
+        </div>
+        <div class="play-box" id="player">
+            <p class="cards" id="player-cards"></p>
+            <p class="sum" id="player-sum"></p>
+        </div>
+        <div class="buttons">
+            <button id="start-game-btn" onclick="startGame()">START</button>
+            <button id="hit-btn" onclick="newCard()">HIT</button>
+            <button id="hold-btn" onclick="endRound()">HOLD</button>
+            <button id="split-btn" onclick="splitCards()">SPLIT</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
